@@ -7,7 +7,7 @@ import {
   Gradient,
  
 } from "./design/Services";
-
+import logo  from '../assets/logo.png';
 import Generating from "./Generating";
 
 const Services = () => {
@@ -25,17 +25,21 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Yugm AI"
                 height={730}
                 src={service1}
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-              A secure, on-premise solution that keeps
-              knowledge accessible.
+            <div className="flex justify-start items-center">
+            <img src={logo} width={100} height={20} alt="Yugm" />
+             <h4 className="h4">Yugm AI</h4>
+ 
+            </div>
+
+              <p className="body-2 mb-[3rem] text-n-3 text-justify">
+              The term "Yugm" meaning "pair" or "union" symbolizes the collaboration between employees and the AI."Yugm AI" reflects a modern approach to employee engagement and support, promoting a culture of collaboration and shared knowledge within the organization.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
