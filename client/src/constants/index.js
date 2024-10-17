@@ -24,7 +24,7 @@ import {
   raindrop,
   recording01,
   recording03,
- 
+  
   searchMd,
   slack,
   sliders04,
@@ -32,6 +32,13 @@ import {
   twitter,
  
 } from "../assets";
+
+import msteams from '../assets/collaboration/msteams.png'
+
+
+import greythr from '../assets/collaboration/greythr.png'
+import bamboohr from '../assets/collaboration/bamboohr.png'
+
 
 export const navigation = [
   {
@@ -80,19 +87,19 @@ export const brainwaveServicesIcons = [
 
 
 export const collabText1 =
-  "On-premises data storage guarantees your data remains secure and under your control, aligning with privacy and compliance needs.";
+  "Connect your favorite tools and platforms effortlessly, making collaboration smoother and more productive than ever before";
   export const collabText2 =
   "Leverage AI to categorize, search making information retrieval smarter and faster.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Top-notch Security",
+    title: "Seamless Integration:",
     text: collabText1,
   },
   {
     id: "2",
-    title: "Seamless Integration",
+    title: "Supercharge Information Retrieval",
     text: collabText2,
   },
 ];
@@ -101,17 +108,17 @@ export const collabApps = [
 
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Microsoft Teams",
+    icon: msteams,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "GreytHR",
+    icon: greythr,
     width: 36,
-    height: 28,
+    height: 38,
   },
   {
     id: "3",
@@ -123,10 +130,10 @@ export const collabApps = [
 
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
+    title: "Bamboo hr",
+    icon: bamboohr,
+    width: 36,
+    height: 38,
   },
  
 ];
@@ -151,21 +158,13 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Comprehensive Internal Knowledge Management",
-    text: "Focus on internal knowledge sharing to support business operations and allow employees to retrieve crucial information quickly and efficiently.",
+    title: "Conversational Knowledge retrieval",
+    text: "Equip employees with quick and efficient access to internal knowledge, enhancing business operations through conversational retrieval of crucial information",
     backgroundUrl: "./client/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
-  {
-    id: "3",
-    title: "Tailored for Mid-Sized Companies",
-    text: "Designed to provide sophisticated solutions for growing organizations, Yugm scales with your business and meets your unique needs.",
-    backgroundUrl: "./client/src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
+  
 
 
 ];
