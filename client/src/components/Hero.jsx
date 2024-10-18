@@ -36,8 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Unleash the power of AI within Yugm. <br/> Upgrade your productivity
-            with Yugm, the open AI chat app.
+          Unleash the power of AI within Yugm. <br/>Boost productivity using the open AI chat app.
           </p>
          
         </div>

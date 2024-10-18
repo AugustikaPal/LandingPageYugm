@@ -8,7 +8,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
-      <div className="container lg:flex">
+      <div className="container lg:flex text-justify">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
           Coming your way soon 🚀
@@ -16,13 +16,13 @@ const Collaboration = () => {
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
-              <li className="mb-3 py-3" key={item.id}>
+              <li className="mb-3 py-3 text-justify" key={item.id}>
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
+                  <p className="body-2 mt-3 text-n-4 text-justify">{item.text}</p>
                 )}
               </li>
             ))}

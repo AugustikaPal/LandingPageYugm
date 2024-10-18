@@ -10,7 +10,8 @@ import {
 } from "./design/Services";
 import logo  from '../assets/logo.png';
 import Generating from "./Generating";
-import chatbotdemo from '../assets/collaboration/chatbot-demo.mp4' 
+import chatbotdemo from '../assets/collaboration/chatbot-demo.mp4' ;
+import converse from '../assets/collaboration/converse.mp4'
 
 
 const Services = () => {
@@ -89,9 +90,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem] ml-[130px]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4 p-4">
+                <h4 className="h4 mb-4 p-4 text-justify">
                 Streamline knowledge access across the entire organization.</h4>
-                <p className="justify-center align-middle p-4 ">
+                <p className="justify-center align-middle p-4 text-justify">
                 Yugm AI consolidates knowledge access by connecting with commonly-used knowledge bases, enabling employees to obtain tailored, precise, and current information with brief responses. Additionally, it recognizes knowledge gaps and takes the initiative to develop useful content to avoid recurring problems.
                 </p>
                
@@ -111,9 +112,9 @@ const Services = () => {
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem] w-[500px]">
               <div className="py-12 px-4 xl:px-8 ">
                 <h4 className="h4 mb-4 p-4">
-                Streamline knowledge access across the entire organization.</h4>
-                <p className="justify-center align-middle p-4 ">
-                Yugm AI consolidates knowledge access by connecting with commonly-used knowledge bases, enabling employees to obtain tailored, precise, and current information with brief responses. Additionally, it recognizes knowledge gaps and takes the initiative to develop useful content to avoid recurring problems.
+                Simplifying Knowledge Retrieval</h4>
+                <p className="justify-center align-middle p-4 text-justify">
+                Yugm AI empowers users and employees by providing instant access to a centralized knowledge base. With natural language queries, it delivers accurate, concise responses, ensuring quick resolutions and enhancing productivity across the organization.
                 </p>
                
               </div>
@@ -128,7 +129,7 @@ const Services = () => {
                {/* < className="h4 mb-4"> */}
                <div className="absolute inset-0 flex items-center justify-center p-3">
                <video
-                 src={chatbotdemo}
+                 src={converse}
                  className=" object-cover  "
                  autoPlay
                  loop
