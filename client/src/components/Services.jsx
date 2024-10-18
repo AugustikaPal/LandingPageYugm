@@ -59,12 +59,12 @@ const Services = () => {
 
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
+          <br/>
+          <br/>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-              
-              </div>
+            <div className="relative min-h-[35rem] min-w-[48rem] border border-n-1/10 rounded-3xl overflow-hidden">
+             
 
               <div className="absolute inset-0 flex flex-col justify-end align-middle p-4 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
 
@@ -87,11 +87,13 @@ const Services = () => {
               {/* <PhotoChatMessage /> */}
             </div>
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem]">
+            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem] ml-[130px]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4"></h4>
-              
-                <img src={image} className="h-[300px] w-[500px]"/>
+                <h4 className="h4 mb-4 p-4">
+                Streamline knowledge access across the entire organization.</h4>
+                <p className="justify-center align-middle p-4 ">
+                Yugm AI consolidates knowledge access by connecting with commonly-used knowledge bases, enabling employees to obtain tailored, precise, and current information with brief responses. Additionally, it recognizes knowledge gaps and takes the initiative to develop useful content to avoid recurring problems.
+                </p>
                
               </div>
 
