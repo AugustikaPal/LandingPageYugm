@@ -23,7 +23,7 @@ const Services = () => {
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center h-[40rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -100,7 +100,48 @@ const Services = () => {
            
             </div>
           </div>
+          
+          <br/>
+          <br/>
+          {/* second video bar */}
+        
+          <div className="relative z-1 grid gap-3 lg:grid-cols-2">
+        
 
+            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem] w-[500px]">
+              <div className="py-12 px-4 xl:px-8 ">
+                <h4 className="h4 mb-4 p-4">
+                Streamline knowledge access across the entire organization.</h4>
+                <p className="justify-center align-middle p-4 ">
+                Yugm AI consolidates knowledge access by connecting with commonly-used knowledge bases, enabling employees to obtain tailored, precise, and current information with brief responses. Additionally, it recognizes knowledge gaps and takes the initiative to develop useful content to avoid recurring problems.
+                </p>
+               
+              </div>
+
+           
+            </div>
+            <div className="relative min-h-[35rem] min-w-[48rem] -ml-[130px] border border-n-1/10 rounded-3xl overflow-hidden ">
+             
+
+             <div className="absolute inset-0 flex flex-col justify-end align-middle p-4 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15 ">
+
+               {/* < className="h4 mb-4"> */}
+               <div className="absolute inset-0 flex items-center justify-center p-3">
+               <video
+                 src={chatbotdemo}
+                 className=" object-cover  "
+                 autoPlay
+                 loop
+                 muted
+                 playsInline
+                 controls={false} // Remove controls if you want it to autoplay seamlessly
+               
+               />
+               </div>
+              
+             </div>
+           </div>
+          </div>
           <Gradient />
         </div>
       </div>
