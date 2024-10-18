@@ -10,6 +10,8 @@ import {
 } from "./design/Services";
 import logo  from '../assets/logo.png';
 import Generating from "./Generating";
+import chatbotdemo from '../assets/collaboration/chatbot-demo.mp4' 
+
 
 const Services = () => {
   return (
@@ -59,13 +61,26 @@ const Services = () => {
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
               
               </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4"></h4>
+              <div className="absolute inset-0 flex flex-col justify-end align-middle p-4 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+
+                {/* < className="h4 mb-4"> */}
+                <div className="absolute inset-0 flex items-center justify-center p-3">
+                <video
+                  src={chatbotdemo}
+                  className=" object-cover  "
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls={false} // Remove controls if you want it to autoplay seamlessly
+                
+                />
+                </div>
                
               </div>
 

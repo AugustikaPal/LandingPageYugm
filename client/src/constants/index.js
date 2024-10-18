@@ -89,7 +89,7 @@ export const brainwaveServicesIcons = [
 export const collabText1 =
   "Connect your favorite tools and platforms effortlessly, making collaboration smoother and more productive than ever before";
   export const collabText2 =
-  "Leverage AI to categorize, search making information retrieval smarter and faster.";
+  "Leverage AI to categorize and search information based on user roles, making information retrieval smarter, faster, and more secure. Ensure the right people access the right information at the right time, enhancing productivity and collaboration across the organization";
 
 export const collabContent = [
   {
@@ -99,7 +99,7 @@ export const collabContent = [
   },
   {
     id: "2",
-    title: "Supercharge Information Retrieval",
+    title: "Supercharge Information Retrieval with Role-Based Access",
     text: collabText2,
   },
 ];
