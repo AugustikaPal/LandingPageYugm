@@ -67,7 +67,7 @@ const Services = () => {
           <br/>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2" id="demo">
-            <div className="relative min-h-[40rem] min-w-[70rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative min-h-[40rem] min-w-[70rem] border border-n-1/10 rounded-3xl overflow-hidden -ml-[4.5rem]">
              
 
               <div className="absolute inset-0 flex flex-col justify-end align-middle p-4 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
@@ -92,7 +92,7 @@ const Services = () => {
               {/* <PhotoChatMessage /> */}
             </div>
 
-            <div className="p-4 mt-[120px] bg-n-7 rounded-3xl overflow-hidden lg:min-h-[25rem] ml-[500px] w-[300px]">
+            <div className="p-4 mt-[120px] h-[400px] bg-n-7 rounded-3xl overflow-hidden lg:min-h-[25rem] w-[300px] ml-[420px] ">
               <div className="py-4 px-4 xl:px-2">
               
                 <p className="justify-center  px-4 py-4 text-left text-gray-400">
@@ -112,7 +112,7 @@ const Services = () => {
           <div className="relative z-1 grid gap-3 lg:grid-cols-2">
         
 
-            <div className="p-4 bg-n-7 rounded-3xl h-[400px] mt-[120px] overflow-hidden lg:min-h-[20rem] w-[300px] -ml-[100px]">
+            <div className="p-4 bg-n-7 rounded-3xl h-[400px] mt-[120px] overflow-hidden lg:min-h-[20rem] w-[300px] -ml-[80px]">
               <div className="py-4 px-4 xl:px-4 ">
                
                 <p className="justify-center  p-4 text-left text-gray-400">
