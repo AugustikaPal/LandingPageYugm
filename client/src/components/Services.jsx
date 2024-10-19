@@ -1,8 +1,10 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2,  check } from "../assets";
+import { service1,  check } from "../assets";
+import Accordian from "./Accordian";
+
 import image from "../assets/image.png"
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { brainwaveServices } from "../constants";
 import {
   
   Gradient,
@@ -36,14 +38,12 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-            <div className="flex justify-start items-center">
-            <img src={logo} width={100} height={20} alt="Yugm" />
-             <h4 className="h4">Yugm AI</h4>
- 
+            <div className="flex justify-start items-center text-black ">
+            <Accordian className=""/>
             </div>
 
-              <p className="body-2 mb-[3rem] text-n-3 text-justify">
-              The term "Yugm" meaning "pair" or "union" symbolizes the collaboration between employees and the AI."Yugm AI" reflects a modern approach to employee engagement and support, promoting a culture of collaboration and shared knowledge within the organization.
+              <p className="-ml-28  text-n-3 text-justify">
+          
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
