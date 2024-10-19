@@ -116,7 +116,7 @@ const Services = () => {
               <div className="py-4 px-4 xl:px-4 ">
                
                 <p className="justify-center  p-4 text-left text-gray-400">
-                Yugm AI empowers users and employees by providing instant access to a centralized knowledge base. With natural language queries, it delivers accurate, concise responses, ensuring quick resolutions and enhancing productivity across the organization.
+                Let Yugm be your productivity sidekick! Just ask, and Yugm delivers spot-on responses from your knowledge vault, all in natural language. The result? Fast answers, less time hunting for info, and more time getting stuff done!
                 </p>
                
               </div>
