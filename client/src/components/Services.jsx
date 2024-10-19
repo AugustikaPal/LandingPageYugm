@@ -63,17 +63,18 @@ const Services = () => {
           <br/>
           <br/>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[35rem] min-w-[48rem] border border-n-1/10 rounded-3xl overflow-hidden">
+          <div className="relative z-1 grid gap-5 lg:grid-cols-2" id="demo">
+            <div className="relative min-h-[40rem] min-w-[70rem] border border-n-1/10 rounded-3xl overflow-hidden">
              
 
               <div className="absolute inset-0 flex flex-col justify-end align-middle p-4 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
 
                 {/* < className="h4 mb-4"> */}
-                <div className="absolute inset-0 flex items-center justify-center p-3">
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-2">
+                  <h1 className="h4 p-4">Streamline knowledge access across the entire organization</h1>
                 <video
                   src={chatbotdemo}
-                  className=" object-cover  "
+                  className=" object-cover h-[540px]"
                   autoPlay
                   loop
                   muted
@@ -88,11 +89,10 @@ const Services = () => {
               {/* <PhotoChatMessage /> */}
             </div>
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem] ml-[130px]">
-              <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4 p-4 text-justify">
-                Streamline knowledge access across the entire organization.</h4>
-                <p className="justify-center align-middle p-4 text-justify">
+            <div className="p-4 mt-[120px] bg-n-7 rounded-3xl overflow-hidden lg:min-h-[25rem] ml-[500px] w-[300px]">
+              <div className="py-4 px-4 xl:px-2">
+              
+                <p className="justify-center  px-4 py-4 text-left text-gray-400">
                 Yugm AI consolidates knowledge access by connecting with commonly-used knowledge bases, enabling employees to obtain tailored, precise, and current information with brief responses. Additionally, it recognizes knowledge gaps and takes the initiative to develop useful content to avoid recurring problems.
                 </p>
                
@@ -109,11 +109,10 @@ const Services = () => {
           <div className="relative z-1 grid gap-3 lg:grid-cols-2">
         
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[26rem] w-[500px]">
-              <div className="py-12 px-4 xl:px-8 ">
-                <h4 className="h4 mb-4 p-4">
-                Simplifying Knowledge Retrieval</h4>
-                <p className="justify-center align-middle p-4 text-justify">
+            <div className="p-4 bg-n-7 rounded-3xl h-[400px] mt-[120px] overflow-hidden lg:min-h-[20rem] w-[300px] -ml-[100px]">
+              <div className="py-4 px-4 xl:px-4 ">
+               
+                <p className="justify-center  p-4 text-left text-gray-400">
                 Yugm AI empowers users and employees by providing instant access to a centralized knowledge base. With natural language queries, it delivers accurate, concise responses, ensuring quick resolutions and enhancing productivity across the organization.
                 </p>
                
@@ -121,13 +120,14 @@ const Services = () => {
 
            
             </div>
-            <div className="relative min-h-[35rem] min-w-[48rem] -ml-[130px] border border-n-1/10 rounded-3xl overflow-hidden ">
+            <div className="relative min-h-[40rem] min-w-[70rem] -ml-[400px] border border-n-1/10 rounded-3xl overflow-hidden ">
              
 
              <div className="absolute inset-0 flex flex-col justify-end align-middle p-4 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15 ">
 
                {/* < className="h4 mb-4"> */}
-               <div className="absolute inset-0 flex items-center justify-center p-3">
+               <div className="absolute flex flex-col inset-0 flex items-center justify-center p-3">
+               <h1 className="h4 p-4"> Simplifying Knowledge Retrieval</h1>
                <video
                  src={converse}
                  className=" object-cover  "

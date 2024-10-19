@@ -52,6 +52,15 @@ export const navigation = [
     title: "Get started",
     url: "#how-to-use",
   },
+  {
+    id:"3",
+    title: "Demo",
+    url: "#demo",
+  },{
+    id:"4",
+    title: "Coming Soon",
+    url: "#coming-soon",
+  }
 
   // {
   //   id: "4",
