@@ -19,12 +19,15 @@ import converse from '../assets/collaboration/converse.mp4'
 const Services = () => {
   return (
     <Section id="how-to-use">
-      <div className="container">
-        <Heading
-         
-          text="Yugm : Revolutionizing Knowledge Management with AI driven Accessibility & Security"
-        />
-
+  <div className="container mx-auto">
+    <div className="flex justify-center">
+    <h1 className="text-4xl font-bold text-center pb-10">
+  Yugm: Your AI-Powered Knowledge Sidekick 🦾!
+</h1>
+    </div>
+<p className="body-2 mb-10 text-center text-n-4 text-lg leading-relaxed">
+  Smarter, faster, and secure knowledge management—unlock seamless access with AI-driven precision!
+</p>
         <div className="relative">
           <div className="relative z-1 flex items-center h-[40rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">

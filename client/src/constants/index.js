@@ -96,9 +96,9 @@ export const brainwaveServicesIcons = [
 
 
 export const collabText1 =
-  "Connect your favorite tools and platforms effortlessly, making collaboration smoother and more productive than ever before";
+  "🔗 Plug into your favorite tools effortlessly! Say goodbye to clunky workflows and hello to a collaboration experience that's smoother than ever. Your team will thank you!";
   export const collabText2 =
-  "Leverage AI to categorize and search information based on user roles, making information retrieval smarter, faster, and more secure. Ensure the right people access the right information at the right time, enhancing productivity and collaboration across the organization";
+  "⚡ Supercharge info retrieval with AI that's tuned to your team's roles. Need info? You’ve got it! The right data, for the right person, at the right time. It’s smart, it’s fast, and it’s secure—because productivity should feel like magic! ✨";
 
 export const collabContent = [
   {
@@ -108,7 +108,7 @@ export const collabContent = [
   },
   {
     id: "2",
-    title: "Supercharge Information Retrieval with Role-Based Access",
+    title: "Unlock Your Organization's Superpowers with Role-Based AI!",
     text: collabText2,
   },
 ];
@@ -150,16 +150,16 @@ export const collabApps = [
 export const benefits = [
   {
     id: "0",
-    title: "On-Premises Data Security",
-    text: "Control your data. Yugm's on-premises solution ensures complete data security and compliance with data sovereignty requirements.",
+    title: "Your Data, Your Control : 🔐 On-Premises Data Security",
+    text: "Yugm keeps your data safe and sound on-premises, giving you full control while meeting all compliance needs. Because security should never be a second thought!",
     backgroundUrl: "./client/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "AI-Powered Knowledge Hub",
-    text: "Automate information categorization and leverage AI for contextual search and insights generation from internal data, streamlining knowledge access across the organization.",
+    title: "Brainpower in a Box : 💡AI That Thinks Like You",
+    text: "Yugm’s smart AI organizes your info, making sure you get the right answers when you need them. From categorizing knowledge to finding insights, it's like having a superbrain at your fingertips!",
     backgroundUrl: "./client/src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -167,8 +167,8 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Conversational Knowledge retrieval",
-    text: "Equip employees with quick and efficient access to internal knowledge, enhancing business operations through conversational retrieval of crucial information",
+    title: "Talk to Your Knowledge: 🗣️ Chat with Your Data",
+    text: "Why dig through files when you can just ask? With Yugm’s conversational AI, employees get instant access to what matters—making work smoother, faster, and a whole lot smarter!",
     backgroundUrl: "./client/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
