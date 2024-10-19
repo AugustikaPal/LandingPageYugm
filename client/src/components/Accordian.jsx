@@ -32,21 +32,27 @@ const Accordian = () => {
       
       ]);
     
-      const toggleFAQ = index => {
-        setFaqs(
-          faqs.map((faq, i) => {
-            if (i === index) {
-              faq.open = !faq.open;
-            } else {
-              faq.open = false;
-            }
+      // const toggleFAQ = index => {
+      //   setFaqs(
+      //     faqs.map((faq, i) => {
+      //       if (i === index) {
+      //         faq.open = !faq.open;
+      //       } else {
+      //         faq.open = false;
+      //       }
     
-            return faq;
-          })
+      //       return faq;
+      //     })
+      //   );
+      // };
+    
+      const toggleFAQ = (index) => {
+        setFaqs((prevFaqs) =>
+          prevFaqs.map((faq, i) =>
+            i === index ? { ...faq, open: !faq.open } : faq
+          )
         );
       };
-    
-
   return (
     <div>
       <div className="faqs">
