@@ -46,7 +46,13 @@ const Accordian = () => {
         );
       };
     
-
+      // const toggleFAQ = (index) => {
+      //   setFaqs((prevFaqs) =>
+      //     prevFaqs.map((faq, i) =>
+      //       i === index ? { ...faq, open: !faq.open } : faq
+      //     )
+      //   );
+      // };
   return (
     <div>
       <div className="faqs">
