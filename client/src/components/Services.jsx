@@ -75,16 +75,15 @@ const Services = () => {
                 {/* < className="h4 mb-4"> */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-2">
                   <h1 className="h4 p-4">Streamline knowledge access across the entire organization</h1>
-                <video
-                  src={chatbotdemo}
-                  className=" object-cover h-[540px]"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls={false} // Remove controls if you want it to autoplay seamlessly
-                
-                />
+                  <video
+                      src={chatbotdemo}
+                      className="rounded-lg border-2 border-gray-700 object-cover h-[540px] transition-transform transform hover:scale-95 focus:scale-95 focus:outline-none hover:brightness-110 hover:shadow-lg hover:shadow-gray-500/50"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      controls={false}
+                    />
                 </div>
                
               </div>
@@ -132,17 +131,15 @@ const Services = () => {
                <div className="absolute flex flex-col inset-0 flex items-center justify-center p-3">
                <h1 className="h4 p-4"> Simplifying Knowledge Retrieval</h1>
                <video
-                 src={converse}
-                 className=" object-cover  "
-                 autoPlay
-                 loop
-                 muted
-                 playsInline
-                 controls={false} // Remove controls if you want it to autoplay seamlessly
-               
-               />
+                  src={converse}
+                  className="rounded-lg border-2 border-gray-700 object-cover h-[540px] transition-transform transform hover:scale-95 focus:scale-95 focus:outline-none hover:brightness-110 hover:shadow-lg hover:shadow-gray-500/50"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls={false}
+                />
                </div>
-              
              </div>
            </div>
           </div>
