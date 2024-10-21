@@ -46,17 +46,10 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-8 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <video
-                  className="mt-[12px] ml-2 object-cover scale-[1.7] translate-y-[15%] md:scale-[1] md:translate-y-[0%] lg:-translate-y-[15%]"
-                  
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                >
-                  <source src={robot} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+  <img
+    className="mt-[12px] ml-2 object-cover scale-[1.7] translate-y-[15%] md:scale-[1] md:translate-y-[0%] lg:-translate-y-[15%]"
+    src={robot} // Replace with the path to your PNG image
+  />
 
                 <Generating className="absolute left-4 right-4 md:left-1/2 md:right-auto md:bottom-2 md:w-[31rem] md:-translate-x-1/2" />
 
