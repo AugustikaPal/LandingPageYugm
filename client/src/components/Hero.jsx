@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { curve, heroBackground, robot } from "../assets";
 
 import Section from "./Section";
@@ -6,8 +7,7 @@ import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
-// import Notification from "./Notification";
-// import CompanyLogos from "./CompanyLogos";
+
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -45,29 +45,14 @@ const Hero = () => {
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-8 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/49] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
   <img
-    className="mt-[12px] ml-2 object-cover scale-[1.7] translate-y-[15%] md:scale-[1] md:translate-y-[0%] lg:-translate-y-[15%]"
-    src={robot} // Replace with the path to your PNG image
+    className="object-cover ml-[80px] w-[900px] h-auto scale-[1] translate-y-[15%] md:scale-[1] md:translate-y-[0%] lg:-translate-y-[15%] mt-2"
+    src={robot} 
   />
 
-                <Generating className="absolute left-4 right-4 md:left-1/2 md:right-auto md:bottom-2 md:w-[31rem] md:-translate-x-1/2" />
-
-                {/* <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
-                      </li>
-                    ))}
-                  </ul>
-                </ScrollParallax> */}
-
+              
                 <ScrollParallax isAbsolutelyPositioned>
-                  {/* <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
-                  /> */}
                 </ScrollParallax>
               </div>
             </div>
@@ -83,7 +68,7 @@ const Hero = () => {
               alt="hero"
             />
           </div>
-
+        
           <BackgroundCircles />
         </div>
 
